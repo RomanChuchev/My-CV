@@ -1,9 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 body {
     background-color: #f1f1f1;
     color: #0f141e;
     font-size: 16px;
     font-weight: normal;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.container-slide {
+    background: #b56df95a;
+    border-radius: 20px;
+    font-family: 'Muli', sans-serif;
+    overflow: hidden;
+    margin-bottom: 10px;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.slide {
+    height: 90vh;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 500ms ease-in-out;
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide h3 {
+    position: absolute;
+    font-size: 20px;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+    font-weight: 600;
+    padding-bottom: 3px;
+    background: -webkit-linear-gradient(right, #b56df95a, #c894f9, #c894f9, #c894f9, #c894f9, #b56df95a) bottom no-repeat;
+    background: -o-linear-gradient(right, #b56df95a, #c894f9, #c894f9, #c894f9, #c894f9, #b56df95a) bottom no-repeat;
+    background: linear-gradient(to right, #b56df95a, #c894f9, #c894f9, #c894f9, #c894f9, #b56df95a) bottom no-repeat;
+    background-size: 90% 4px;
+}
+
+.slide p {
+    margin: 0;
+    padding: 3px;
+}
+
+.slide.active {
+    flex: 8;
+}
+
+.slide.active h3,
+.slide.active div {
+    opacity: 1;
+    transition: opacity 0.5s ease-in 0.4s;
+    pointer-events: all;
+}
+
+.slide div {
+    position: absolute;
+    font-size: 14px;
+    bottom: 5px;
+    opacity: 0;
+    color: #000000;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 10px;
+    width: 90%;
+    pointer-events: none;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 3px;
+    background: -webkit-linear-gradient(right, #b56df95a, #c894f9, #c894f9, #c894f9, #c894f9, #b56df95a) bottom no-repeat;
+    background: -o-linear-gradient(right, #b56df95a, #c894f9, #c894f9, #c894f9, #c894f9, #b56df95a) bottom no-repeat;
+    background: linear-gradient(to right, #b56df95a, #c894f9, #c894f9, #c894f9, #c894f9, #b56df95a) bottom no-repeat;
+    background-size: 70% 4px;
+}
+
+.link:hover {
+    background-size: 100% 4px;
+    cursor: pointer;
+    font-weight: 550;
 }
 
 .container {
@@ -80,39 +173,7 @@ body {
     border: #0f141e;
 }
 
-.box-text {
-    color: rgba(0, 0, 0, 0.806);
-    font-style: normal;
-    font-size: 16px;
-}
-
-.box-text p {
-    margin: 7px;
-}
-
-.box {
-    padding: 10px 10px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-}
-
-.box h2 {
-    margin: 10px 40px;
-}
-
-.bg-1 {
-    background-color: #b56df95a;
-}
-
-.bg-2 {
-    background-color: #e5ffe7;
-}
-
-.bg-3 {
-    background-color: #fff9dc;
-}
-
-.bg-4 {
+.bg {
     background-color: #ffe5f5;
 }
 
@@ -139,10 +200,6 @@ body {
     padding-left: 20px;
 }
 
-.ol-li li {
-    margin: 10px;
-}
-
 .box-ol {
     display: flex;
     margin: 0 20px 20px 0;
@@ -157,10 +214,10 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 50vh;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .box-ol {
         display: block;
         margin: auto;
@@ -169,22 +226,4 @@ body {
         width: 100%;
         margin-bottom: 20px;
     }
-}
-
-.link {
-    margin-left: 5px;
-    margin-bottom: 40px;
-    text-decoration: none;
-    color: black;
-    padding-bottom: 3px;
-    background: -webkit-linear-gradient(right, #b56df95a, #c894f9 33.3%, #c894f9 33.3%, #c894f9 66.6%, #c894f9 66.6%, #b56df95a) bottom no-repeat;
-    background: -o-linear-gradient(right, #b56df95a 0, #c894f9 33.3%, #c894f9 33.3%, #c894f9 66.6%, #c894f9 66.6%, #b56df95a) bottom no-repeat;
-    background: linear-gradient(to right, #b56df95a 0, #c894f9 33.3%, #c894f9 33.3%, #c894f9 66.6%, #c894f9 66.6%, #b56df95a) bottom no-repeat;
-    background-size: 70% 4px;
-}
-
-.link:hover {
-    background-size: 100% 4px;
-    cursor: pointer;
-    font-weight: 550;
 }
