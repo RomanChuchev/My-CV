@@ -64,6 +64,7 @@ body {
 
 .slide.active {
     flex: 12;
+    cursor: auto;
 }
 
 .slide.active h3,
