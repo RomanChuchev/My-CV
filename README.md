@@ -1,6 +1,6 @@
 # <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"/> Hello Everyone!
 
-[![Live Demo](./screenshots.png)](https://romanchuchev.github.io/My-CV/)
+[![Live Demo](./img/screenshots.png)](https://romanchuchev.github.io/My-CV/)
 
 ## :man_technologist: My name is Roman. I am a beginner Frontend Developer
 
@@ -13,9 +13,9 @@ _I believe that soon I will find an internship or my first job in the frontend, 
 
 ### ☎️ Contact information:
 
-- **Telegram**: [@roman_chuchev](https://t.me/roman_chuchev)
-- **Email**: [romanok20@gmail.com](mailto:romanok20@gmail.com)
-- **Phone**: [+7(977)280-56-92](<tel:+7(977)280-56-92>)
+-   **Telegram**: [@roman_chuchev](https://t.me/roman_chuchev)
+-   **Email**: [romanok20@gmail.com](mailto:romanok20@gmail.com)
+-   **Phone**: [+7(977)280-56-92](<tel:+7(977)280-56-92>)
 
 [![Codewars](https://www.codewars.com/users/Romanus20/badges/small)](https://www.codewars.com/users/Romanus20/badges/small))
 
@@ -37,10 +37,10 @@ _I believe that soon I will find an internship or my first job in the frontend, 
 
 ### 🗣️ Languages:
 
-- **Russian**: _Native_
-- **English**: _Pre-intermediate/Intermediate_
+-   **Russian**: _Native_
+-   **English**: _Pre-intermediate/Intermediate_
 
-  <a alt="Test Efset" href="https://efset.org"><img alt="Test Efset" src="https://user-images.githubusercontent.com/102550409/188318365-3cf7763d-499a-475c-b2c4-ba88e248aac2.png" width="200px" /></a>
+    <a alt="Test Efset" href="https://efset.org"><img alt="Test Efset" src="https://user-images.githubusercontent.com/102550409/188318365-3cf7763d-499a-475c-b2c4-ba88e248aac2.png" width="200px" /></a>
 
 ---
 
