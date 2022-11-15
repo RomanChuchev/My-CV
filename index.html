@@ -16,13 +16,17 @@
     <body>
         <div class="container">
             <div class="info">
-                <img src="./img/photo.jpg" alt="тут моя фотка" class="avatar" />
+                <img
+                    src="./img/photo.jpg"
+                    alt="тут моя фотка"
+                    class="info__avatar"
+                />
 
-                <div class="info-text">
-                    <h1>Чучев Роман Евгеньевич</h1>
-                    <h3>Front-End Developer</h3>
-                    <h4>Контактная информация:</h4>
-                    <p>
+                <div class="info__text">
+                    <h1 class="info__name">Чучев Роман Евгеньевич</h1>
+                    <p class="info__profession">Frontend Developer</p>
+                    <p class="info__contacts">Контактная информация:</p>
+                    <p class="info__row">
                         Телефон:
                         <a
                             class="link"
@@ -31,7 +35,7 @@
                             >+7(977)280-56-92
                         </a>
                     </p>
-                    <p>
+                    <p class="info__row">
                         Телеграм:
                         <a
                             class="link"
@@ -40,7 +44,7 @@
                             >@roman_chuchev</a
                         >
                     </p>
-                    <p>
+                    <p class="info__row">
                         Электронная почта:
                         <a
                             class="link"
@@ -49,7 +53,7 @@
                             >romanok20@gmail.com</a
                         >
                     </p>
-                    <p>
+                    <p class="info__row">
                         Github:
                         <a
                             class="link"
@@ -59,23 +63,17 @@
                         >
                     </p>
 
-                    <h4>Личная информация:</h4>
-                    <p>Дата рождения: 09.09.2000 (22 годa)</p>
-                    <p>Гражданство: Россия</p>
-                    <p>Семейное положение: Не женат</p>
+                    <p class="info__personal">Личная информация:</p>
+                    <p class="info__row">Дата рождения: 09.09.2000 (22 годa)</p>
+                    <p class="info__row">Гражданство: Россия</p>
                 </div>
             </div>
         </div>
 
         <div class="container-slide">
-            <div
-                class="slide"
-                style="
-                    background-image: url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
-                "
-            >
+            <div class="slide hobby">
                 <h3>Мои хобби</h3>
-                <div class="bg box-ol">
+                <div class="pink-bg box-ol">
                     <ol class="ol">
                         <li>Путешествия и походы</li>
                         <li>Изучение английского</li>
@@ -93,14 +91,9 @@
                 </div>
             </div>
 
-            <div
-                class="slide"
-                style="
-                    background-image: url('https://images.unsplash.com/photo-1601807576163-587225545555?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80');
-                "
-            >
+            <div class="slide courses">
                 <h3>Повышение квалификации, курсы</h3>
-                <div class="bg">
+                <div class="pink-bg">
                     <table class="table">
                         <thead>
                             <tr>
@@ -129,15 +122,10 @@
                 </div>
             </div>
 
-            <div
-                class="slide"
-                style="
-                    background-image: url('https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
-                "
-            >
+            <div class="slide progect">
                 <h3>Мои проекты</h3>
-                <div class="bg">
-                    <table class="table-project">
+                <div class="pink-bg">
+                    <table class="table">
                         <thead>
                             <tr>
                                 <td><strong>JavaScript</strong></td>
@@ -235,15 +223,10 @@
                 </div>
             </div>
 
-            <div
-                class="slide"
-                style="
-                    background-image: url('https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
-                "
-            >
+            <div class="slide skills">
                 <h3>Ключевые навыки</h3>
-                <div class="bg">
-                    <ul class="ol-li">
+                <div class="pink-bg">
+                    <ul class="skills__ul">
                         <li>
                             Навыки работы с HTML5, CSS, SASS(SCSS), JavaScript,
                             React, Redux;
@@ -259,14 +242,9 @@
                 </div>
             </div>
 
-            <div
-                class="slide"
-                style="
-                    background-image: url('https://images.unsplash.com/photo-1533327325824-76bc4e62d560?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80');
-                "
-            >
+            <div class="slide education">
                 <h3>Образование</h3>
-                <div class="bg">
+                <div class="pink-bg">
                     <p>
                         Учебное заведение:
                         <strong
